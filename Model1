@@ -1,0 +1,10 @@
+
+CREATE TABLE [new table]
+( 
+	[new column]         char(18)  NOT NULL 
+)
+go
+
+ALTER TABLE [new table]
+	ADD CONSTRAINT [XPKnew table] PRIMARY KEY  NONCLUSTERED ([new column] ASC)
+go
